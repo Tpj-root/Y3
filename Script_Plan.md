@@ -5,12 +5,12 @@
 
 
 
+mysql -u root -p
 
 
-
-
-
-
+CREATE DATABASE yts;
+GRANT ALL PRIVILEGES ON yts.* TO 'root'@'localhost' IDENTIFIED BY '123';
+FLUSH PRIVILEGES;
 
 
 
@@ -102,6 +102,58 @@ SELECT
   JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.rating')) AS rating
 FROM movies
 WHERE JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.title')) = 'Amazing Grace';
+
+
+
+SELECT 
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.id')) AS id,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.url')) AS url,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.title')) AS title,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.year')) AS year,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.rating')) AS rating
+FROM movies
+WHERE JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.title')) LIKE 'the%';
+
+
+
+
+Backup the Database:
+ 
+mysqldump -u root -p yts > yts_backup.sql
+
+
+
+Drop the Database
+
+DROP DATABASE yts;
+
+
+
+Drop the Table
+
+DROP TABLE yts_movies;
+
+
+To clear (delete all data from)
+
+TRUNCATE TABLE movies;
+
+
+
+
+Verify Removal
+
+SHOW DATABASES;
+
+
+
+import the yts_backup.sql file into your yts database
+
+CREATE DATABASE yts;
+mysql -u root -p yts < yts_backup.sql
+
+
+
 
 
 

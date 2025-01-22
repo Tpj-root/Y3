@@ -85,3 +85,22 @@ nslookup  www.yts.mx
 </table>
 
 
+
+
+
+
+
+# Notes
+
+
+
+```
+https://github.com/v1cont/yad
+
+https://github.com/v1cont/yad/wiki
+
+```
+
+
+
+
