@@ -29,14 +29,6 @@ https://ytsproxies.com/
 
 
 
-### SQL commands
-
-```
-
-# clear the movies table
-TRUNCATE TABLE movies;
-
-```
 
 
 

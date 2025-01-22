@@ -117,6 +117,19 @@ WHERE JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.title')) LIKE 'the%';
 
 
 
+
+
+
+### SQL commands
+
+```
+
+# clear the movies table
+TRUNCATE TABLE movies;
+
+
+
+
 Backup the Database:
  
 mysqldump -u root -p yts > yts_backup.sql
@@ -153,7 +166,7 @@ CREATE DATABASE yts;
 mysql -u root -p yts < yts_backup.sql
 
 
-
+```
 
 
 
