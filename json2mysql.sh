@@ -7,7 +7,7 @@ DB_NAME="yts"
 TABLE_NAME="movies"
 
 # Path to the directory containing your JSON files
-INPUT_DIR="/home/sab/Desktop/MY_GIT/YTS_DOWNLOAD_2025/inputdata/"
+INPUT_DIR="/home/sab/Desktop/MY_GIT/YTS_DOWNLOAD_2025/yts_movie_data/"
 
 # Loop through each JSON file (page_1.json to page_1299.json)
 for file in $INPUT_DIR/page_*.json; do
@@ -33,6 +33,7 @@ for file in $INPUT_DIR/page_*.json; do
     # Optional: print progress
     echo "Inserted movie ID: $movie_id"
   done
+  sleep 2
 done
 
 echo "All data has been inserted into the database."

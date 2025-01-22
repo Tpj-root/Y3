@@ -99,6 +99,10 @@ https://github.com/v1cont/yad
 
 https://github.com/v1cont/yad/wiki
 
+https://yad-guide.ingk.se/
+
+https://yad-guide.ingk.se/notebook/yad-notebook.html
+
 ```
 
 
