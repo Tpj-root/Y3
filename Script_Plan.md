@@ -2,6 +2,19 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 CREATE TABLE movies (
   id INT AUTO_INCREMENT PRIMARY KEY,
   movie_id INT,
