@@ -46,7 +46,7 @@ nslookup  www.yts.mx
     <th>Summery</th>
   </tr>
 <tr>
-  <td style="width: 50px; word-wrap: break-word;">Jan 222</td>
+  <td style="width: 50px; word-wrap: break-word;">Jan 22 2025</td>
   <td style="width: 150px; word-wrap: break-word;">65026</td>
   <td style="width: 150px; word-wrap: break-word;">www.yts.mx</td>
   <td style="width: 150px; word-wrap: break-word;">104.26.0.60, 104.26.1.60, 172.67.69.153</td>
