@@ -50,14 +50,14 @@ sudo apt install curl yad jq -y
 
 
 
-# Get MOVIE_COUNT
+### Get MOVIE_COUNT
 
 ```
 curl -s "https://yts.mx/api/v2/list_movies.json?limit=1&page=1" | jq .data.'movie_count'
 ```
  
 
-# Get IPAddress
+### Get IPAddress
 
 ```
 nslookup  www.yts.mx
