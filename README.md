@@ -13,6 +13,34 @@
 
 
 
+### Site
+
+
+```
+
+https://eztvx.to/
+
+https://yifystatus.com/
+
+https://ytsproxies.com/
+
+
+```
+
+
+
+### SQL commands
+
+```
+
+# clear the movies table
+TRUNCATE TABLE movies;
+
+```
+
+
+
+
 ### Install dependency
 
 ```
