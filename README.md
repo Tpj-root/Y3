@@ -117,27 +117,8 @@ cat Ihave_id.txt | wc -l
   <td style="width: 200px; word-wrap: break-word;"></td>
   <td style="width: 200px; word-wrap: break-word;"> -125</td>
 </tr>
-
-
-
 </table>
 
-
-
-
-
-
-
-
-
-
-MariaDB [yts]> 
-
-+----------+
-| COUNT(*) |
-+----------+
-|    64342 |
-+----------+
 
 
 
