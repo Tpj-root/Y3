@@ -86,7 +86,63 @@ nslookup  www.yts.mx
 </table>
 
 
+```
+curl -s "https://yts.mx/api/v2/list_movies.json?limit=1&page=1" | jq .data.'movie_count'
+SELECT COUNT(*) FROM movies;
+cat empty_slots_ids.txt | wc -l
+cat Ihave_id.txt | wc -l
 
+```
+
+
+<table>
+  <tr>
+    <th>BIG_COUNT_IDs</th>
+    <th>MYSQL_IDs</th>
+    <th>EMPTY_IDs</th>
+    <th>IHAVA_IDs</th>
+    <th>TOTAL_IDs</th>
+    <th>-</th>
+    <th>Summery</th>
+  </tr>
+<tr>
+  <th>DATE</th>
+  <td style="width: 50px; word-wrap: break-word;">Jan 22 2025</td>
+  <td style="width: 50px; word-wrap: break-word;">65026</td>
+  <td style="width: 150px; word-wrap: break-word;">64342</td>
+  <td style="width: 50px; word-wrap: break-word;">1106</td>
+  <td style="width: 150px; word-wrap: break-word;">559</td>
+  <td style="width: 200px; word-wrap: break-word;">64901</td>
+  <td style="width: 200px; word-wrap: break-word;"></td>
+  <td style="width: 200px; word-wrap: break-word;"> -125</td>
+</tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+MariaDB [yts]> 
+
++----------+
+| COUNT(*) |
++----------+
+|    64342 |
++----------+
+
+
+
+
+
+```
 
 
 
