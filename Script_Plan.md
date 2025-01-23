@@ -23,6 +23,14 @@ CREATE TABLE movies (
 
 
 
+CREATE TABLE movies1 (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  movie_id INT,
+  movie_json JSON
+);
+
+
+
 INSERT INTO movies (movie_id, movie_json)
 VALUES
 (66200, '{
