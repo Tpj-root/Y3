@@ -97,6 +97,7 @@ cat Ihave_id.txt | wc -l
 
 <table>
   <tr>
+    <th>DATE</th>
     <th>BIG_COUNT_IDs</th>
     <th>MYSQL_IDs</th>
     <th>EMPTY_IDs</th>
@@ -106,7 +107,7 @@ cat Ihave_id.txt | wc -l
     <th>Summery</th>
   </tr>
 <tr>
-  <th>DATE</th>
+
   <td style="width: 50px; word-wrap: break-word;">Jan 22 2025</td>
   <td style="width: 50px; word-wrap: break-word;">65026</td>
   <td style="width: 150px; word-wrap: break-word;">64342</td>
