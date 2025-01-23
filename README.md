@@ -74,6 +74,15 @@ nslookup  www.yts.mx
   <td style="width: 200px; word-wrap: break-word;">notyet</td>
   <td style="width: 200px; word-wrap: break-word;"></td>
 </tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">Jan 23 2025</td>
+  <td style="width: 150px; word-wrap: break-word;">65060</td>
+  <td style="width: 150px; word-wrap: break-word;">www.yts.mx</td>
+  <td style="width: 150px; word-wrap: break-word;">104.26.0.60, 104.26.1.60, 172.67.69.153</td>
+  <td style="width: 200px; word-wrap: break-word;">Online</td>
+  <td style="width: 200px; word-wrap: break-word;">notyet</td>
+  <td style="width: 200px; word-wrap: break-word;">+34</td>
+</tr>
 </table>
 
 
