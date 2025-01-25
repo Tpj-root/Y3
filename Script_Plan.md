@@ -124,6 +124,35 @@ WHERE JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.title')) LIKE 'the%';
 
 
 
+# largest number in your id
+#  MAX, MIN
+
+SELECT 
+  MAX(CAST(JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.id')) AS UNSIGNED)) AS largest_id
+FROM movies;
+
+
+
+
+
+
+
+
+
+SELECT 
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.id')) AS id,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.url')) AS url,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.title')) AS title,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.year')) AS year,
+  JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.rating')) AS rating
+FROM movies
+WHERE JSON_UNQUOTE(JSON_EXTRACT(movie_json, '$.id')) = '66092';
+
+
+
+
+
+
 
 
 
